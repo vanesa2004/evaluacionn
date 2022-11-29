@@ -1,0 +1,269 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#box{
+    background-color: white;
+}
+
+.header{
+    border: 1px solid;
+    width: 1340px;
+    background-image: url("../img/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    height: 70px;
+}
+
+.main-one{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    width: 550px;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+}
+
+.lorem{
+    background-color: rgba(0, 0, 0, 0.658);
+    width: 400px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.ips{
+    color: white;
+    margin-left: 5px;
+}
+
+.iconss .fa-x{
+    color: white;
+    margin-right: 5px;
+}
+
+.iconss{
+    color: #4a72f5;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-two{
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    width: 240px;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.button{
+    border: 1px solid;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-up{
+    background-color: #4a72f5;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user{
+    background-color: #3c3c3c;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.user .fa-sharp{
+    color: #4a72f5;
+}
+
+#contenedor{
+    background-color: #202024;
+    display: flex;
+    flex-direction: row;
+    height: 37rem;
+}
+
+.left{
+    background-color: #202024;
+    width: 6rem;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+article .fa-sharp{
+    color: #aeaeb2;
+    margin-left: 8px;
+    margin-right: 5px;
+}
+
+p{
+    color: #696b6c;
+}
+
+.facts{
+    background-color: #202024;
+    width: 55rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.barra{
+    width: 860px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.quick{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+    color: #aeaeb2;
+}
+
+.quick .fa-sharp{
+    color: #aeaeb2;
+}
+
+.faa{
+    font-size: 18px;
+}
+
+.reaccion{
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+}
+
+.reaccion .fa-sharp{
+    color: #aeaeb2;
+    margin: 5px;
+}
+
+.doss{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+}
+
+.section-one{
+    background-color: #3c3c3e;
+    width: 400px;
+    margin: 5px;
+}
+
+.wiki{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wiki .fa-sharp{
+    margin: 2px;
+    color: #aeaeb2;
+}
+
+.article-one{
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+.reem{
+    font-size: 18px;
+    margin-top: -5px;
+    color: white;
+}
+
+.article-one img{
+    width: 200px;
+    margin-top: -20px;
+}
+
+.texx{
+    color: white;
+}
+
+.article-two{
+    background-color: #3c3c3e;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.ask{
+    font-size: 20px;
+}
+
+.footer{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    width: 799px;
+}
+
+.buutton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background-color: #4a72f5;
+    border-radius: 10px;
+    height: 30px;
+    padding: 5px;
+}
+
+.buutton img{
+    width: 20px;
+    height: 20px;
+}
+
+.right{
+    background-color: #313135;
+    flex-grow: 1;
+}
+
+
+
